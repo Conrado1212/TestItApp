@@ -67,6 +67,8 @@ letter-spacing: 1px;
 }
 .menu ul li a i{
     text-align: left;
+    padding: 5%;
+    color: #fff;
 }
 
 
