@@ -65,7 +65,9 @@ letter-spacing: 1px;
     width: 100%;
     text-align: center;
 }
-
+.menu ul li a i{
+    text-align: left;
+}
 
 
 
