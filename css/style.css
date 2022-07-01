@@ -70,13 +70,19 @@ letter-spacing: 1px;
     padding: 5%;
     color: #fff;
 }
+.conteinerek{
+    height: 100%;
+    width:85%;
+    background-image: url(/img/back.png);
+    padding:2% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    float: right;
+}
+.content{
 
-
-
-
-
-
-
+}
 .socialdiv{
     width: 1000px;
     margin-left: auto;
