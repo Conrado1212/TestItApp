@@ -209,10 +209,23 @@ text-align: center;
 label #chekk, label #end{
     position: absolute;
     cursor: pointer;
+    background-image: url(/img/backImgTitle.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid;
 }
 label #chekk{
     left: 40px;
     top: 25px;
     font-size: 25px;
-    color: #000;
+    color: #fff;
+    padding: 4px 8px;;
+}
+label #end{
+    z-index:1;
+    left: 100px;
+    top: 25px;
+    font-size: 25px;
+    color: #FFF;
 }
