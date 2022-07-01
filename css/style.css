@@ -24,6 +24,7 @@
         height: 80%;
 }
 .menu{
+    left: -250px;
     width: 15%;
     height: 100%;
     background-image: url(/img/menuBack.png);
@@ -224,8 +225,22 @@ label #chekk{
 }
 label #end{
     z-index:1;
-    left: 100px;
-    top: 25px;
+    left: -200px;
+    top: 85px;
     font-size: 25px;
     color: #FFF;
+    padding: 4px 8px;
+}
+#check:checked ~ .menu{
+    left: 0;
+}
+#check:checked ~ label #chekk{
+    left: 250px;
+    opacity: 0;
+    pointer-events: none;
+}
+#check:checked ~ label #end{
+    left:200px;
+    opacity: 0;
+    pointer-events: none;
 }
