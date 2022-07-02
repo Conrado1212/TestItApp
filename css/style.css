@@ -25,12 +25,22 @@
 .search{
     text-align: right;
     line-height: 30px;
-   width: 50%;
+  
+}
+.line{
+    background-image: url(/img/menuBack.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 .line ul{
     list-style: none;
     width: 280px;
     margin-top: 5px;
+    background-image: url(/img/menuBack.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 .line ul li{
     display: inline;
@@ -44,6 +54,7 @@
     padding:4px;
     font-size:17px;
     border-radius: 7px;
+    
 }
 .line ul li a:hover{
     text-decoration: none;
@@ -73,7 +84,7 @@
     border-radius: 5px;
 }
 .input-field{
-    width:35%;
+    width:40%;
     padding: 10px 0;
     margin: 5px 0;
     border-left: 0;
