@@ -21,26 +21,21 @@
     font-size: 40px;;
     font-weight: bold;
     padding: 0px 76px;
+    width: 100%;
 }
 .search{
-    text-align: right;
+    text-align: center;
     line-height: 30px;
-  
+    width: 100%;
 }
 .line{
-    background-image: url(/img/menuBack.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    text-align: right;
+    width: 100%;
 }
 .line ul{
     list-style: none;
-    width: 280px;
+    
     margin-top: 5px;
-    background-image: url(/img/menuBack.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
 }
 .line ul li{
     display: inline;
@@ -82,9 +77,10 @@
 .inputek{
     text-align: center;
     border-radius: 5px;
+    
 }
 .input-field{
-    width:40%;
+    width:70%;
     padding: 10px 0;
     margin: 5px 0;
     border-left: 0;
