@@ -402,7 +402,7 @@ label #end{
   .choice .prefix{
     padding: 1%;
    background-color: #1e1e1e;
-   text-align: left;
+   text-align: center;
    width: 7%;
   }
   .choice .text{
