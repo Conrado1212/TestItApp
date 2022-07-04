@@ -1,5 +1,7 @@
 const question = document.getElementById('question');
 const choices  = document.getElementById('text');
+const counterQestion  = document.getElementById('counterQ');
+const scoreText  = document.getElementById('score');
 
 let currQuestion = {};
 let acceptAns =true;
@@ -201,6 +203,7 @@ getNewQ = () =>{
         return window.location.assign("/gameOver.html");
     }
     counterQ++;
+    counterQestion.innerText = counterQ + "/" + max_Qestion;
    const indexQ =  Math.floor(Math.random() * availableQ.length);
    currQuestion = availableQ[indexQ];
    question.innerHTML = currQuestion.question;
@@ -228,6 +231,13 @@ choices.forEach(choice => {
             apply = 'correct';
         }
 
+
+        if(apply == 'correct'){
+            incrementScore(CORRECT_BONUS);
+        }
+
+
+
         selectChoice.parentElement.classList.add(apply);
         setTimeout( () =>{
             selectChoice.parentElement.classList.remove(apply);
@@ -237,4 +247,11 @@ choices.forEach(choice => {
         
     });
 });
+
+
+
+incrementScore = num => {
+    score +=num;
+    scoreText.innerText = score;
+}
 startGame();

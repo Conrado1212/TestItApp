@@ -437,4 +437,11 @@ label #end{
   .display-prefix{
       text-align: center;
       font-size: 30px;
+      background: linear-gradient(to right, #000000, 	#808080);
+      border-radius: 30px;
+      border: 0;
+      border: 3px solid #660000;
+  }
+  .display-text{
+      color:white;
   }
