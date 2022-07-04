@@ -427,3 +427,14 @@ label #end{
   .incorecct{
     background-color: #d94348;
   }
+
+  #display{
+      display: flex;
+      justify-content: space-around;
+     
+  }
+
+  .display-prefix{
+      text-align: center;
+      font-size: 30px;
+  }
